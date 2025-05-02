@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "productName": "RAM Module Bundle",
+    "productType": "Recycled Components",
+    "productDescription": "4x 8GB DDR4",
+    "productIcon": "memory",
+    "customer": "TechSolutions Ltd",
+    "amount": 3200,
+    "date": "2025-04-30T07:04:01.915Z",
+    "status": "completed",
+    "salesPerson": "Kenneth Smith",
+    "createdAt": "2025-05-02T07:04:01.952Z"
+  },
+  {
+    "id": 2,
+    "productName": "SSD Recycling Service",
+    "productType": "Service",
+    "productDescription": "Data wiping included",
+    "productIcon": "hdd",
+    "customer": "DataSecure Inc",
+    "amount": 5850,
+    "date": "2025-04-28T07:04:01.915Z",
+    "status": "in_progress",
+    "salesPerson": "Kenneth Smith",
+    "createdAt": "2025-05-02T07:04:01.952Z"
+  },
+  {
+    "id": 3,
+    "productName": "Motherboard Components",
+    "productType": "Recycled Parts",
+    "productDescription": "Capacitors and chips",
+    "productIcon": "microchip",
+    "customer": "EcoTech Manufacturing",
+    "amount": 12750,
+    "date": "2025-04-26T07:04:01.915Z",
+    "status": "completed",
+    "salesPerson": "Kenneth Smith",
+    "createdAt": "2025-05-02T07:04:01.952Z"
+  }
+]

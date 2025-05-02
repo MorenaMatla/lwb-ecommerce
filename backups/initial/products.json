@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "DDR4 RAM Bundle",
+    "description": "Recycled 8GB modules, tested and verified.",
+    "price": 2800,
+    "stock": 24,
+    "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+    "status": "available",
+    "category": "RAM",
+    "createdAt": "2025-05-02T07:01:01.281Z",
+    "updatedAt": "2025-05-02T07:01:01.281Z"
+  },
+  {
+    "id": 2,
+    "name": "SSD 500GB Pack",
+    "description": "Refurbished SSDs with secure data wiping.",
+    "price": 4500,
+    "stock": 12,
+    "image": "https://images.unsplash.com/photo-1601737487795-dab272f52420?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+    "status": "available",
+    "category": "Hard Drive",
+    "createdAt": "2025-05-02T07:01:01.281Z",
+    "updatedAt": "2025-05-02T07:01:01.281Z"
+  },
+  {
+    "id": 3,
+    "name": "Motherboard Components",
+    "description": "Assorted capacitors, chips and connectors.",
+    "price": 850,
+    "stock": 150,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+    "status": "available",
+    "category": "Motherboard",
+    "createdAt": "2025-05-02T07:01:01.281Z",
+    "updatedAt": "2025-05-02T07:01:01.281Z"
+  },
+  {
+    "id": 4,
+    "name": "Recycled CPU Pack",
+    "description": "Tested and functional CPU chips from various manufacturers.",
+    "price": 3200,
+    "stock": 8,
+    "image": "https://images.unsplash.com/photo-1562976540-1502c2145186?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+    "status": "low_stock",
+    "category": "CPU",
+    "createdAt": "2025-05-02T07:01:01.281Z",
+    "updatedAt": "2025-05-02T07:01:01.281Z"
+  },
+  {
+    "id": 5,
+    "name": "GPU Components",
+    "description": "Salvaged GPU parts for repair and recycling.",
+    "price": 1500,
+    "stock": 5,
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
+    "status": "low_stock",
+    "category": "GPU",
+    "createdAt": "2025-05-02T07:01:01.281Z",
+    "updatedAt": "2025-05-02T07:01:01.281Z"
+  }
+]

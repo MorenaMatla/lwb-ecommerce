@@ -1,0 +1,45 @@
+Assignment: Deployment of a web application to the cloud with modules
+
+publicly and privately deployed on two tenants.
+
+Task Description
+IWB is a Lesotho company that operates under the supervision of Co-Founder Kenneth.
+The company started in 2024 with a Capital of M100000. During his journey on sourcing
+funds, Kenneth partnered with Shadrack, who joined as a second CEO of the company.
+The mandate of IWB is to recycle computer parts; mainly the RAM, Hard Drives and
+Components of a motherboard. In 2025, the company penetrated the market and
+became one of the pioneers of electronic recycling in the Southern Region of Africa
+despite the ever-increasing expenditure from salaries, transportation and
+advertisements. The growth of IWB attracted investors, partners and clients outside of
+Lesotho. As a Solutions Architect, you are tasked with the implementation of a web
+application deployed on MS Azure, AWS or Google Cloud.
+
+Group
+Assignment
+20%
+
+The solution must meet the following specifications:
+ All services and products sold must be recorded on a database and backed up on
+a platform of your choice. Ensure that the services and products are well-
+grouped to avoid mixed records.
+ Project IWB’s performance through a monthly income statement.
+ The sales must only be accessed by a maximum of three (3) IWB sales personnel
+with read/write permissions.
+ The income must only be accessed by a maximum of three (3) IWB finance
+personnel with read/write permissions.
+ The maximum of three (3) developers must have access to application files with
+full permissions – read and write.
+ The investors must have access to the income statements with read permissions.
+ The platform must allow clients to log queries through a form that captures –
+their names, email addresses, and message. Such information must be logged to
+the system and be accessed by all sales personnel, and backed up to a platform
+of your choice. Again, based on the history of previously logged and addressed
+queries, the system must automatically reply to the clients/customers through
+words similarity without the sales personnel intervention. All queries must be
+labelled with pending or complete, depending on whether they have been
+addressed or not. The automatically addressed queries must be automatically
+labelled.
+ The primary partner of IWB, IWC should have access to the entire solution from
+the comfort of their cloud environment, except clients’ queries and webpages.
+ ALL user accounts accessing queries, sales records, webpages, and income
+statements must be multi-factored.

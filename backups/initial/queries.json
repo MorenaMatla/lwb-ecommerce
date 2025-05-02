@@ -1,0 +1,24 @@
+[
+  {
+    "id": 2,
+    "name": "Sarah Johnson",
+    "email": "sarah@gmail.com",
+    "subject": "Laptop Recycling",
+    "message": "What are your rates for recycling 50 old laptops?",
+    "status": "automated",
+    "response": "Our laptop recycling rates depend on the quantity and condition. For bulk orders (50+), we offer special discounts. Standard recycling starts at M50 per unit. Please contact our sales team for a detailed quote.",
+    "autoRepliedAt": "2025-05-02T05:04:02.075Z",
+    "createdAt": "2025-05-01T21:04:02.075Z"
+  },
+  {
+    "id": 1,
+    "name": "John Smith",
+    "email": "john.smith@company.com",
+    "subject": "Data Erasure Services",
+    "message": "Do you offer data secure erasure for our company's old hard drives?",
+    "status": "pending",
+    "response": null,
+    "autoRepliedAt": null,
+    "createdAt": "2025-05-02T02:04:02.075Z"
+  }
+]

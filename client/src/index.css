@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Instagram theme light mode */
+    --background: 0 0% 98%;
+    --foreground: 222.2 84% 4.9%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    
+    /* Instagram brand purple */
+    --primary: 283 39% 53%;
+    --primary-foreground: 210 40% 98%;
+    
+    /* Light background */
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    
+    /* Instagram pink */
+    --accent: 335 78% 58%;
+    --accent-foreground: 210 40% 98%;
+    
+    /* Instagram red for destructive actions */
+    --destructive: 355 78% 56%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 283 39% 53%;
+    
+    /* Instagram colors for charts */
+    --chart-1: 283 39% 53%; /* Instagram Purple */
+    --chart-2: 335 78% 58%; /* Instagram Pink */
+    --chart-3: 355 78% 56%; /* Instagram Red */ 
+    --chart-4: 43 96% 58%;  /* Instagram Yellow */
+    --chart-5: 207 90% 54%; /* Instagram Blue */
+    
+    /* Instagram sidebar */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222.2 84% 4.9%;
+    --sidebar-primary: 283 39% 53%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 335 78% 58%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 214.3 31.8% 91.4%;
+    --sidebar-ring: 283 39% 53%;
+    
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    /* Instagram theme dark mode */
+    --background: 220 14% 10%;
+    --foreground: 210 40% 98%;
+    
+    --card: 220 14% 13%;
+    --card-foreground: 210 40% 98%;
+    
+    --popover: 220 14% 10%;
+    --popover-foreground: 210 40% 98%;
+    
+    /* Instagram brand purple */
+    --primary: 283 39% 53%;
+    --primary-foreground: 210 40% 98%;
+    
+    /* Dark background */
+    --secondary: 220 14% 13%;
+    --secondary-foreground: 210 40% 98%;
+    
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    
+    /* Instagram pink */
+    --accent: 335 78% 58%;
+    --accent-foreground: 210 40% 98%;
+    
+    /* Instagram red for destructive actions */
+    --destructive: 355 78% 56%;
+    --destructive-foreground: 210 40% 98%;
+    
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 283 39% 53%;
+  }
+  
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply font-sans antialiased bg-secondary text-foreground;
+  }
+}
+
+@layer components {
+  /* Status badges */
+  .status-badge-pending {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800;
+  }
+
+  .status-badge-completed {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800;
+  }
+
+  .status-badge-automated {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800;
+  }
+
+  .status-badge-in-progress {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800;
+  }
+  
+  /* Instagram-inspired UI components */
+  .instagram-gradient-btn {
+    @apply relative overflow-hidden bg-gradient-to-r from-purple-600 via-pink-600 to-red-500 
+           text-white font-medium rounded-md px-4 py-2 
+           transition-all duration-300 hover:shadow-lg hover:scale-105 active:scale-95;
+  }
+  
+  .instagram-btn {
+    @apply bg-primary text-white px-4 py-2 rounded-md 
+           transition-all duration-300 hover:bg-primary/90 hover:shadow-md 
+           active:scale-95;
+  }
+  
+  .instagram-icon-btn {
+    @apply rounded-full p-2 bg-white border border-gray-200 shadow-sm hover:shadow 
+           transition-all duration-300 hover:scale-110 active:scale-95;
+  }
+  
+  .instagram-card {
+    @apply bg-white rounded-md overflow-hidden shadow-md hover:shadow-lg transition-all duration-300;
+  }
+  
+  .instagram-input {
+    @apply w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none 
+           focus:ring-2 focus:ring-primary focus:border-transparent transition-colors;
+  }
+  
+  /* Animated active effects */
+  .btn-active {
+    @apply transition-all hover:shadow-lg hover:scale-105 active:scale-95;
+  }
+}

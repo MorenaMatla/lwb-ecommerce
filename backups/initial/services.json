@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Data Wiping Service",
+    "description": "Secure data erasure for hard drives and SSDs with certification.",
+    "price": 500,
+    "duration": "2 hours",
+    "status": "active",
+    "createdAt": "2025-05-02T07:01:01.437Z",
+    "updatedAt": "2025-05-02T07:01:01.437Z"
+  },
+  {
+    "id": 2,
+    "name": "Component Recovery",
+    "description": "Extraction of valuable components from circuit boards.",
+    "price": 1200,
+    "duration": "1 day",
+    "status": "active",
+    "createdAt": "2025-05-02T07:01:01.437Z",
+    "updatedAt": "2025-05-02T07:01:01.437Z"
+  },
+  {
+    "id": 3,
+    "name": "E-Waste Collection",
+    "description": "Bulk collection of electronic waste from businesses.",
+    "price": 2000,
+    "duration": "3 hours",
+    "status": "active",
+    "createdAt": "2025-05-02T07:01:01.437Z",
+    "updatedAt": "2025-05-02T07:01:01.437Z"
+  },
+  {
+    "id": 4,
+    "name": "Hardware Testing",
+    "description": "Comprehensive testing of recycled computer hardware.",
+    "price": 800,
+    "duration": "4 hours",
+    "status": "active",
+    "createdAt": "2025-05-02T07:01:01.437Z",
+    "updatedAt": "2025-05-02T07:01:01.437Z"
+  },
+  {
+    "id": 5,
+    "name": "Custom Refurbishing",
+    "description": "Tailored refurbishing services for specific client needs.",
+    "price": 3500,
+    "duration": "3 days",
+    "status": "inactive",
+    "createdAt": "2025-05-02T07:01:01.437Z",
+    "updatedAt": "2025-05-02T07:01:01.437Z"
+  }
+]
